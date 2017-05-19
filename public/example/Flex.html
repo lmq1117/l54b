@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<title>WeUI Test</title>
+	<link rel="stylesheet" href="weui.css">
+	<link rel="stylesheet" href="example.css">
+</head>
+<body>
+	 <div class="page__hd">
+        <h1 class="page__title">Flex</h1>
+        <p class="page__desc">Flex布局</p>
+    </div>
+    <div class="page__bd page__bd_spacing">
+    	一列布局
+    	<div class="weui-flex" style="background: red;">
+            <div class="weui-flex__item"><div class="placeholder">weui</div></div>
+        </div>
+        二列布局
+        <div class="weui-flex" >
+            <div class="weui-flex__item" style="background: green;"><div class="placeholder">weui</div></div>
+            <div class="weui-flex__item" style="background: yellow;"><div class="placeholder">weui</div></div>
+        </div>
+        最后一个
+        <div class="weui-flex">
+            <div><div class="placeholder">啥代表啥的</div></div>
+            <div class="weui-flex__item" style="background: yellow;"><div class="placeholder">weui</div></div>
+            <div><div class="placeholder">右边的</div></div>
+        </div>
+    </div>
+
+
+
+<script src="zepto.min.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="https://res.wx.qq.com/open/libs/weuijs/1.0.0/weui.min.js"></script>
+<script src="example.js"></script>
+</body>
+</html>
